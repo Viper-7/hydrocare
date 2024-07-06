@@ -1,11 +1,10 @@
 {
-    "name": "cwp/starter-theme",
-    "description": "CWP Theme",
+    "name": "viper-7/hydrocare",
+    "description": "Hydrocare Solutions",
     "type": "silverstripe-theme",
     "keywords": [
         "silverstripe",
-        "theme",
-        "cwp"
+        "theme"
     ],
     "license": "BSD-3-Clause",
     "require": {
