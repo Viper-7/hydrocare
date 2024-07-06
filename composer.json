@@ -11,7 +11,7 @@
         "silverstripe/framework": "^5"
     },
     "extra": {
-        "installer-name": "starter",
+        "installer-name": "hydrocare",
         "expose": [
             "dist",
             "ico",
