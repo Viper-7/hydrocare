@@ -9,6 +9,7 @@
     </div>
     <div class="row">
         <section class="col-lg-8<% if not $Children %> offset-lg-2<% end_if %>">
+            <% include Dynamic/Carousel/Carousel %> 
             <% if $ElementalAreaID %>
                 <%-- Support for content blocks, if enabled --%>
                 <% if $ElementalArea.RichLinks %>
