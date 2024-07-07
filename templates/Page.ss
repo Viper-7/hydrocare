@@ -28,7 +28,6 @@ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 </style>
     </head>
     <body class="$ClassName">
-        <% include PixiBackground %>
         <!--<header role="banner">
             <% include Header %>
             <% include MainNav %>
