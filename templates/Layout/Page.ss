@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <section class="col-lg-8<% if not $Children %> offset-lg-2<% end_if %>">
+        <section class="col-lg-10<% if not $Children %> offset-lg-1<% end_if %>">
             <% if $ElementalAreaID %>
                 <%-- Support for content blocks, if enabled --%>
                 <% if $ElementalArea.RichLinks %>

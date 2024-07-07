@@ -11,6 +11,9 @@ div.element {
 	margin-bottom: 72px;
 	font-family: Helvetica, arial, sans-serif;
 }
+div.container {
+	background-color: #fff;
+}
 .card-text p, .element__content p {
 	font-size: 1.1rem;
 	margin-left: 48px;
