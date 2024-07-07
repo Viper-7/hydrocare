@@ -28,11 +28,11 @@ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 </style>
     </head>
     <body class="$ClassName">
-        <div id="pixi-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
-        <header role="banner">
+        <% include PixiBackground %>
+        <!--<header role="banner">
             <% include Header %>
             <% include MainNav %>
-        </header>
+        </header>-->
         <main id="main" class="main" role="main">
             $Layout
         </main>
@@ -43,7 +43,5 @@ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
         <% require themedJavascript('dist/js/jquery.min.js') %>
         <% require themedJavascript('dist/js/main.js') %>
         <% include GoogleAnalytics %>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.2.1/browser/pixi.min.js"></script>
-        <% require themedJavascript('dist/js/pixi_background.js') %>
     </body>
 </html>
